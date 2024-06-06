@@ -29,7 +29,7 @@
     function (format2) that takes that list of dicts and saves data into a file in the desired format
     function (post) that imports data (creates dacl with a POST method) from specified file
 
-usage examples:
+usage examples
 for format 1:   #python.exe ISE_dacl_export_import.py -e 1
 for format 2:   #python.exe ISE_dacl_export_import.py -e 2
 for import:     #python.exe ISE_dacl_export_import.py -c name_of_the_file_for_import.csv
