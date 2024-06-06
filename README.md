@@ -18,7 +18,7 @@
     When doing an import, for easier troubleshoot, you will get number of line that is imported with API response. So if you get error answer like [500] you know for which line you got it.
     If you have a dACL in ISE with name of the one you want import you must first delete it from the ISE. API POST will not update it.
 
-    If you don't specify any argument you will get message 'Too few command-line arguments' and if you specify more that one you will get 'Too many command-line arguments'. If you give argument without an option you will get message what you need to specify for that argument.
+    If you don't specify any argument you will get message 'Too few command-line arguments' and if you specify more that one you will get 'Too many command-line arguments'. If you give argument without an option you will get message what you need to specify for that    argument.
 
     The script itself have:
     function (error) for error checking so in a case of an error you will get user friendly message.
@@ -29,7 +29,7 @@
     function (format2) that takes that list of dicts and saves data into a file in the desired format
     function (post) that imports data (creates dacl with a POST method) from specified file
 
-usage examples
-for format 1:   #python.exe ISE_dacl_export_import.py -e 1
-for format 2:   #python.exe ISE_dacl_export_import.py -e 2
-for import:     #python.exe ISE_dacl_export_import.py -c name_of_the_file_for_import.csv
+    usage examples
+    for format 1:   #python.exe ISE_dacl_export_import.py -e 1
+    for format 2:   #python.exe ISE_dacl_export_import.py -e 2
+    for import:     #python.exe ISE_dacl_export_import.py -c name_of_the_file_for_import.csv
